@@ -8,6 +8,8 @@
   padding: 2em;
   color: #fee715ff;
   background-color: #101820ff;
+
+  border: 2px solid #fee715ff;
   border-radius: 10px;
   letter-spacing: 0.05em;
   line-height: 1.5;

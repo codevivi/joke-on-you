@@ -1,6 +1,5 @@
 .App {
   min-height: 100vh;
-  color: #fee715ff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,14 +21,12 @@ h1 span {
   font-size: 1.5em;
 }
 a {
-  color: rgb(254, 231, 21);
-  background-color: rgb(9, 94, 163);
+  color: rgba(254, 231, 21, 0.515);
   padding: 0.3em;
 }
 a:hover,
 a:focus {
-  background-color: rgba(254, 231, 21, 0.896);
-  color: rgb(6, 75, 131);
+  color: #fee715ff;
 }
 
 .btn {
@@ -48,5 +45,5 @@ a:focus {
 
 .btn:hover,
 .btn:focus {
-  box-shadow: -5px -5px 0 0 black;
+  box-shadow: -5px -5px 0 0 #fee715ff;
 }

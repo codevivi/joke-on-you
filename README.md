@@ -2,9 +2,11 @@
 
 ## 📋 About
 
+![alt app screenshot](./screenshot.png)
+
 2023-04-28 assignment
 
-**Site published at [https://codevivi.github.io/joke-on-you/](https://codevivi.github.io/joke-on-you/)**
+<!-- **Site published at [https://codevivi.github.io/joke-on-you/](https://codevivi.github.io/joke-on-you/)** -->
 
 Simple react application to show 10 jokes.
 
