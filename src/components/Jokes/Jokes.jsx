@@ -3,9 +3,12 @@ import SingleJoke from "./SingleJoke/SingleJoke";
 import "./Jokes.css";
 
 function Jokes() {
-  const [jokes, getNewJokes] = useJokes();
+  const [jokes, getNewJokes, error] = useJokes();
   if (jokes === null) {
     return <h2>Loading...</h2>;
+  }
+  if (error) {
+    return <h2>{error}</h2>;
   }
 
   return (

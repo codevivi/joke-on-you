@@ -22,11 +22,14 @@ h1 span {
   font-size: 1.5em;
 }
 a {
-  color: rgba(254, 231, 21, 0.671);
+  color: rgb(254, 231, 21);
+  background-color: rgb(9, 94, 163);
+  padding: 0.3em;
 }
 a:hover,
 a:focus {
-  color: #fee715ff;
+  background-color: rgba(254, 231, 21, 0.896);
+  color: rgb(6, 75, 131);
 }
 
 .btn {
@@ -36,7 +39,7 @@ a:focus {
   outline: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.7s;
+  transition: all 0.3s;
   font-weight: bold;
   font-size: 1rem;
   color: #fee715ff;
@@ -45,7 +48,5 @@ a:focus {
 
 .btn:hover,
 .btn:focus {
-  border-color: transparent;
-  background-color: rgba(254, 231, 21, 0.737);
-  color: #101820ff;
+  box-shadow: -5px -5px 0 0 black;
 }
