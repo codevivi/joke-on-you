@@ -1,5 +1,6 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
+import Jokes from "./components/Jokes/Jokes";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <header className="App-header">
         <h1>Joke on You</h1>
       </header>
-
+      <main className="App-main">
+        <Jokes />
+      </main>
       <Footer />
     </div>
   );
