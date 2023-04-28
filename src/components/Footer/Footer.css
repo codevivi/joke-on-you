@@ -1,7 +1,7 @@
 .App-footer {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   display: inline-flex;
   gap: 2em;
-  padding: 0.5em;
-  color: rgba(255, 255, 255, 0.699);
+  padding: 1em;
+  color: rgba(218, 215, 181, 0.699);
 }

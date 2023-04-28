@@ -1,0 +1,10 @@
+.jokes {
+  margin: auto;
+  width: 90%;
+  max-width: 350px;
+}
+@media screen and (min-width: 700px) {
+  .jokes {
+    max-width: 950px;
+  }
+}

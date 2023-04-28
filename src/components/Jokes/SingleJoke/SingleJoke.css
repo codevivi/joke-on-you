@@ -1,0 +1,45 @@
+.joke-outer {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+  min-height: 150px;
+  margin-bottom: 1em;
+  padding: 2em;
+  color: #fee715ff;
+  background-color: #101820ff;
+  border-radius: 10px;
+  border: 2px solid #fee715ff;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+.joke-outer:nth-child(even) {
+  background-color: #fee715ff;
+  color: #101820ff;
+}
+
+.joke-outer:nth-child(even) .joke-inner {
+  background-color: rgba(175, 160, 28, 0.581);
+}
+.joke-inner {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  padding: 1em;
+  background-color: #282c34af;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.joke-inner .delivery {
+  text-align: right;
+  font-style: italic;
+}
+@media screen and (min-width: 700px) {
+  .joke-outer {
+    font-size: 1.4em;
+  }
+}
